@@ -4,12 +4,12 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import style from './style.module.css';
-const style = {
-    width: '100%',
-    maxWidth: 360,
-    bgcolor: 'background.paper',
-    fontSize: "12px",
-};
+// const style = {
+//     width: '100%',
+//     maxWidth: 360,
+//     bgcolor: 'background.paper',
+//     fontSize: "12px",
+// };
 
 export default function LeftMenu() {
     return (
