@@ -3,13 +3,13 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
-
-const style = {
-    width: '100%',
-    maxWidth: 360,
-    bgcolor: 'background.paper',
-    fontSize: "12px",
-};
+import style from './style.module.css';
+// const style = {
+//     width: '100%',
+//     maxWidth: 360,
+//     bgcolor: 'background.paper',
+//     fontSize: "12px",
+// };
 
 export default function LeftMenu() {
     return (
