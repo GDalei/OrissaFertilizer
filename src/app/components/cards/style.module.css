@@ -1,0 +1,62 @@
+.cardMainWarper:hover{
+    box-shadow: 0px 1px 5px #00000029 !important;
+    border-radius: 7px;
+    cursor: pointer;
+   
+}
+.cardButtonWarper {
+    color: black;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.cardWarper{
+    background: none !important;
+}
+.cardTitle1 {
+    color: #666;
+    font-size: 14px !important;
+   
+    padding-bottom: 5px;
+    font-family: inherit;
+}
+
+.cardTitle2 {
+    color: black;
+    font-size: 14px !important;
+    padding-bottom: 5px;
+}
+
+.cardContain{
+    margin-top: 0px;
+   
+    margin-left: 29px;
+}
+.ourPrice{
+    font-size: 14px;
+    color: green;
+    font-family: inherit;
+}
+.marketPrice{
+    font-family: inherit;
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #b9b9b9;
+}
+.rating{
+    margin-right: 10px;
+    float:right;
+    background: #49a316  0% 0% no-repeat padding-box;
+    padding: 0px 7px 0px 7px; border-radius:4px;line-height: 19px;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.rating2{
+    color: #FFFFFF;font-size:20px;
+}
+.moneySymbol{
+    font-size: 13px!important;
+    color: #3e3e3e;
+    margin-right: 6px;
+}

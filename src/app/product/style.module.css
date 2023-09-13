@@ -1,0 +1,79 @@
+.productWarper {
+    width: 100%;
+    background-color: white;
+}
+
+.productHeader {}
+
+.productMenubar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.productMenubar li {
+    list-style: none;
+    color: black;
+    font-weight: bold;
+}
+
+.productMenubar li:hover {
+    list-style: none;
+    color: rgb(8, 133, 60);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.productMenubar li::before {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+.productBody {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.leftSideBar {
+    width: 250px;
+    height: 100vh;
+    /* padding: 5px; */
+}
+
+.rightSideBar {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightSideBarHeader {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.dividerColor {
+    color: green !important;
+}
+
+.leftSiderMenu {
+    background-color: #26a541;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}

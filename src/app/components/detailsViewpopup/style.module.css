@@ -1,0 +1,93 @@
+.imgBlock {
+    display: flex;
+}
+
+.imgBlock img {
+    width: 300px;
+    height: auto;
+}
+
+.sellerDetails {
+    width: 300px;
+}
+
+.dialogContent {
+    padding: 0px;
+}
+
+.body {
+    width: 300px;
+    height: 300px;
+    word-wrap: break-word;
+    overflow: scroll;
+    font-size: 14px;
+    color: #050505;
+    /* font-family: emoji; */
+    font-family: '__Inter_20951f';
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bodyTitle {
+    padding: 0;
+    margin-top: 6px;
+}
+
+.bodyTitle div{
+    width: 260px;
+}
+
+.selerDetails {
+
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.ourPrice {
+    font-size: 14px;
+    color: green;
+    font-family: inherit;
+}
+
+.marketPrice {
+    font-family: inherit;
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #b9b9b9;
+}
+
+.rating {
+
+
+    background: #49a316 0% 0% no-repeat padding-box;
+    padding: 0px 7px 0px 7px;
+    border-radius: 4px;
+    line-height: 19px;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.rating2 {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.moneySymbol {
+    font-size: 30px !important;
+    color: #3e3e3e;
+    margin-right: 6px;
+}
+
+.moneyCal {
+    font-size: 30px !important;
+}
+
+.weight {
+    float: inline-start;
+    margin-left: 10px;
+}
+
+.dividerColor {
+    color: green;
+}
