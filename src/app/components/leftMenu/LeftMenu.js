@@ -13,7 +13,7 @@ import style from './style.module.css';
 
 export default function LeftMenu() {
     return (
-        <List sx={style} component="nav" aria-label="mailbox folders">
+        <List  component="nav" aria-label="mailbox folders">
             <ListItem button>
                 <ListItemText className={style.textSize} primary="UREA" />
             </ListItem>
