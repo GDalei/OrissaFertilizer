@@ -15,22 +15,22 @@ export default function LeftMenu() {
     return (
         <List sx={style} component="nav" aria-label="mailbox folders">
             <ListItem button>
-                <ListItemText className={Style.textSize} primary="UREA" />
+                <ListItemText className={style.textSize} primary="UREA" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-                <ListItemText className={Style.textSize} primary="POTASH" />
+                <ListItemText className={style.textSize} primary="POTASH" />
             </ListItem>
             <ListItem button>
-                <ListItemText className={Style.textSize} primary="NPK" />
-            </ListItem>
-            <Divider light />
-            <ListItem button>
-                <ListItemText  className={Style.textSize} primary="GROMOR" />
+                <ListItemText className={style.textSize} primary="NPK" />
             </ListItem>
             <Divider light />
             <ListItem button>
-                <ListItemText className={Style.textSize} primary="DAP " />
+                <ListItemText  className={style.textSize} primary="GROMOR" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+                <ListItemText className={style.textSize} primary="DAP " />
             </ListItem>
         </List>
     );
