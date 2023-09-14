@@ -42,16 +42,19 @@ export default function DetailsViewpopup(props) {
 
         <DialogContent className={style.dialogContent}>
           <DialogContentText id="alert-dialog-description">
-            <div className={style.imgBlock}>
-              <div><img
+            <div className={style.wrapper}>
+              <div >
+                <div><img
                 src={imgPath}
                 srcSet={imgPath}
                 loading="lazy"
                 alt=""
+                height="300"
+                width="300"
 
               />
-              </div>
-              <div className={style.sellerDetails}>
+              </div></div>
+              <div ><div className={style.sellerDetails}>
                 <DialogTitle className={style.title}>{Name} {weight}</DialogTitle>
                 <div className={style.body}>
                   <span className={style.rating}>
@@ -80,7 +83,7 @@ export default function DetailsViewpopup(props) {
                   </div>
 
                 </div>
-              </div>
+              </div></div>
             </div>
           </DialogContentText>
 

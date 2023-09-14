@@ -1,3 +1,14 @@
+.box {
+
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+}
+
 .imgBlock {
     display: grid;
     grid-template-columns: auto auto;
