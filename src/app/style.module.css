@@ -23,6 +23,7 @@
     padding-left: 50px;
     padding-right: 50px;
     gap: 30px;
+    overflow: hidden;
 }
 
 .paperStyleButtom {

@@ -7,6 +7,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import style from './style.module.css';
 import Divider from '@mui/material/Divider';
+import Image from 'next/image'
 export default function DetailsViewpopup(props) {
   const [open, setOpen] = React.useState(props.isopen);
   console.log(props.Data)
@@ -44,16 +45,18 @@ export default function DetailsViewpopup(props) {
           <DialogContentText id="alert-dialog-description">
             <div className={style.wrapper}>
               <div >
-                <div><img
-                src={imgPath}
-                srcSet={imgPath}
-                loading="lazy"
-                alt=""
-                height="300"
-                width="300"
+                <div><Image
+                  src={imgPath}
+            
+                  alt="Picture of the author"
 
-              />
-              </div></div>
+                  loading="lazy"
+
+                  height="300"
+                  width="300"
+
+                />
+                </div></div>
               <div ><div className={style.sellerDetails}>
                 <DialogTitle className={style.title}>{Name} {weight}</DialogTitle>
                 <div className={style.body}>
