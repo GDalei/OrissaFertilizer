@@ -43,14 +43,14 @@ export default function DetailsViewpopup(props) {
         <DialogContent className={style.dialogContent}>
           <DialogContentText id="alert-dialog-description">
             <div className={style.imgBlock}>
-
-              <img
+              <div><img
                 src={imgPath}
                 srcSet={imgPath}
                 loading="lazy"
                 alt=""
 
               />
+              </div>
               <div className={style.sellerDetails}>
                 <DialogTitle className={style.title}>{Name} {weight}</DialogTitle>
                 <div className={style.body}>
@@ -68,13 +68,13 @@ export default function DetailsViewpopup(props) {
                   </div>
                   <Divider className={style.dividerColor} orientation="vertical" flexItem>Seller Details</Divider>
                   <div className={style.bodyTitle}>
-                    <div style={{fontSize:"16px", fontWeight:"bold"}}>Seller- Rakesh Sundaray </div>
+                    <div style={{ fontSize: "16px", fontWeight: "bold" }}>Seller- Rakesh Sundaray </div>
                     <div>At-Ankulachati, Balugaon </div>
                     <div>District-Khordha </div>
                     <div>Pin-752030 </div>
                     <div>State-Odisha</div>
-                    <div style={{fontSize:"16px", fontWeight:"bold", color:"red"}}>Contact-9438525294
-                    -9114093129 </div>
+                    <div style={{ fontSize: "16px", fontWeight: "bold", color: "red" }}>Contact-9438525294
+                      -9114093129 </div>
                     <Divider className={style.dividerColor} orientation="vertical" flexItem>Product Description</Divider>
                     {ProductDescription}
                   </div>
