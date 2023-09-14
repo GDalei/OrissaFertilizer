@@ -19,15 +19,15 @@ export default function Header() {
                         edge="start"
                         color="inherit"
                         aria-label="menu"
-                        
-                        sx={{ mr: 2 , height:"20px"}}
+
+                        sx={{ mr: 2, height: "20px" }}
                     >
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h5" component="div" sx={{ flexGrow: 1 }} className={style.companyName}>
-                    OrissaFertilizer
+                        OrissaFertilizer
                     </Typography>
-{/*               
+                    {/*               
                         <CartIcon name="Cart" count="5"/>
                     
                     <Button color="inherit"><a href="http://localhost/fertilizer/register.php" target='blank'>register</a></Button> */}

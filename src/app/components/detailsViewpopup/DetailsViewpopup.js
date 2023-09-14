@@ -36,6 +36,7 @@ export default function DetailsViewpopup(props) {
         onClose={handleClose}
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
+        className={style.width}
 
       >
 

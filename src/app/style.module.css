@@ -32,12 +32,14 @@
     padding: 24px 16px;
     margin-bottom: 10px;
     height: 300px;
-    
+
 }
-.paperStyleButtomBackground{
+
+.paperStyleButtomBackground {
     padding: 2px 10px 0px;
 
 }
+
 .captionText {
     margin: 0 auto;
     width: 100%;
@@ -47,6 +49,7 @@
     margin-bottom: 20px;
 
 }
+
 .h2text {
     padding: 0 0 24px 8px;
     color: rgb(255, 255, 255);
