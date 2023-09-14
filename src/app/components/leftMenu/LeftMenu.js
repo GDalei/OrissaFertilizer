@@ -5,17 +5,10 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import style from './style.module.css';
-const styles = {
-    width: '100%',
-    maxWidth: 360,
-    bgcolor: 'background.paper',
-    fontSize: "12px",
-    
-};
 
 export default function LeftMenu() {
     return (
-        <List sx={styles} component="nav" aria-label="mailbox folders">
+        <List component="nav" aria-label="mailbox folders">
             <ListItem button>
                 <ListItemText  primary="UREA" />
             </ListItem>
