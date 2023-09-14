@@ -4,16 +4,16 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import style from './style.module.css';
-// const style = {
-//     width: '100%',
-//     maxWidth: 360,
-//     bgcolor: 'background.paper',
-//     fontSize: "12px",
-// };
+const styles = {
+    width: '100%',
+    maxWidth: 360,
+    bgcolor: 'background.paper',
+    fontSize: "12px",
+};
 
 export default function LeftMenu() {
     return (
-        <List  component="nav" aria-label="mailbox folders">
+        <List sx={styles} component="nav" aria-label="mailbox folders">
             <ListItem button>
                 <ListItemText className={style.textSize} primary="UREA" />
             </ListItem>
