@@ -10,13 +10,14 @@ const styles = {
     maxWidth: 360,
     bgcolor: 'background.paper',
     fontSize: "12px",
+    
 };
 
 export default function LeftMenu() {
     return (
         <List sx={styles} component="nav" aria-label="mailbox folders">
             <ListItem button>
-                <ListItemText className={style.textSize} primary="UREA" />
+                <ListItemText  primary="UREA" />
             </ListItem>
             <Divider />
             <ListItem button divider>
