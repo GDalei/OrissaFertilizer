@@ -1,3 +1,4 @@
+'use client'
 import * as React from 'react';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -26,7 +27,7 @@ export default function LeftMenu() {
             </ListItem>
             <Divider light />
             <ListItem button>
-                <ListItemText  className={style.textSize} primary="GROMOR" />
+                <ListItemText className={style.textSize} primary="GROMOR" />
             </ListItem>
             <Divider light />
             <ListItem button>
