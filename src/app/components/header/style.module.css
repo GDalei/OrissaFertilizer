@@ -10,3 +10,7 @@
     font-style: oblique !important;
     font-family: '__Inter_20951f' !important;
 }
+
+.fontSize span{
+    font-size: 12px !important;
+}

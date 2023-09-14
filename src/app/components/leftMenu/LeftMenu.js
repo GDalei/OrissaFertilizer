@@ -4,28 +4,28 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
-// import style from './style.module.css';
+import style from '../header/style.module.css';
 
 export default function LeftMenu() {
     return (
         <List component="nav" aria-label="mailbox folders">
             <ListItem button>
-                <ListItemText  primary="UREA" />
+                <ListItemText className={style.fontSize} primary="UREA" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-                <ListItemText  primary="POTASH" />
+                <ListItemText  className={style.fontSize} primary="POTASH" />
             </ListItem>
             <ListItem button>
-                <ListItemText  primary="NPK" />
-            </ListItem>
-            <Divider light />
-            <ListItem button>
-                <ListItemText  primary="GROMOR" />
+                <ListItemText  className={style.fontSize} primary="NPK" />
             </ListItem>
             <Divider light />
             <ListItem button>
-                <ListItemText  primary="DAP " />
+                <ListItemText className={style.fontSize} primary="GROMOR" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+                <ListItemText className={style.fontSize} primary="DAP " />
             </ListItem>
         </List>
     );
