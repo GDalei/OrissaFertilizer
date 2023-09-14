@@ -40,8 +40,8 @@
 }
 .captionText {
     margin: 0 auto;
-    min-width: 978px;
-    max-width: 1680px;
+    width: 100%;
+    flex-wrap: wrap;
     padding: 8px;
     margin-top: 20px;
     margin-bottom: 20px;

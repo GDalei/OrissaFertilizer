@@ -27,10 +27,10 @@ export default function Header() {
                     <Typography variant="h5" component="div" sx={{ flexGrow: 1 }} className={style.companyName}>
                     OrissaFertilizer
                     </Typography>
-              
+{/*               
                         <CartIcon name="Cart" count="5"/>
                     
-                    <Button color="inherit"><a href="http://localhost/fertilizer/register.php" target='blank'>register</a></Button>
+                    <Button color="inherit"><a href="http://localhost/fertilizer/register.php" target='blank'>register</a></Button> */}
                 </Toolbar>
             </AppBar>
         </Box>

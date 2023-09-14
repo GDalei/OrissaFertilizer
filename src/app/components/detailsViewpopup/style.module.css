@@ -1,5 +1,6 @@
 .imgBlock {
     display: flex;
+    flex-wrap: wrap !important;
 }
 
 .imgBlock img {
@@ -16,7 +17,7 @@
 }
 
 .body {
-    width: 300px;
+    width: auto;
     height: 300px;
     word-wrap: break-word;
     overflow: scroll;
@@ -33,8 +34,8 @@
     margin-top: 6px;
 }
 
-.bodyTitle div{
-    width: 260px;
+.bodyTitle div {
+    width: auto;
 }
 
 .selerDetails {
