@@ -68,7 +68,13 @@ export default function DetailsViewpopup(props) {
                   </div>
                   <Divider className={style.dividerColor} orientation="vertical" flexItem>Seller Details</Divider>
                   <div className={style.bodyTitle}>
-                    {SellerDetails}
+                    <div style={{fontSize:"16px", fontWeight:"bold"}}>Seller- Rakesh Sundaray </div>
+                    <div>At-Ankulachati, Balugaon </div>
+                    <div>District-Khordha </div>
+                    <div>Pin-752030 </div>
+                    <div>State-Odisha</div>
+                    <div style={{fontSize:"16px", fontWeight:"bold", color:"red"}}>Contact-9438525294
+                    -9114093129 </div>
                     <Divider className={style.dividerColor} orientation="vertical" flexItem>Product Description</Divider>
                     {ProductDescription}
                   </div>
