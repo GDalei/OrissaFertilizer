@@ -14,10 +14,10 @@ export default function LeftMenu() {
             </ListItem>
             <Divider />
             <ListItem button divider>
-                <ListItemText  className={style.fontSize} primary="POTASH" />
+                <ListItemText className={style.fontSize} primary="POTASH" />
             </ListItem>
             <ListItem button>
-                <ListItemText  className={style.fontSize} primary="NPK" />
+                <ListItemText className={style.fontSize} primary="NPK" />
             </ListItem>
             <Divider light />
             <ListItem button>
