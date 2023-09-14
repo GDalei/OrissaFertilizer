@@ -4,7 +4,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
-import style from './style.module.css';
+// import style from './style.module.css';
 
 export default function LeftMenu() {
     return (
@@ -14,18 +14,18 @@ export default function LeftMenu() {
             </ListItem>
             <Divider />
             <ListItem button divider>
-                <ListItemText className={style.textSize} primary="POTASH" />
+                <ListItemText  primary="POTASH" />
             </ListItem>
             <ListItem button>
-                <ListItemText className={style.textSize} primary="NPK" />
-            </ListItem>
-            <Divider light />
-            <ListItem button>
-                <ListItemText className={style.textSize} primary="GROMOR" />
+                <ListItemText  primary="NPK" />
             </ListItem>
             <Divider light />
             <ListItem button>
-                <ListItemText className={style.textSize} primary="DAP " />
+                <ListItemText  primary="GROMOR" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+                <ListItemText  primary="DAP " />
             </ListItem>
         </List>
     );
