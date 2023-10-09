@@ -9,6 +9,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import style from './style.module.css';
 import CartIcon from '../CartIcon';
+import LoginComponent from '../LoginComponent/LoginComponent';
 export default function Header() {
     return (
         <Box sx={{ flexGrow: 1 }} >
@@ -27,6 +28,7 @@ export default function Header() {
                     <Typography variant="h5" component="div" sx={{ flexGrow: 1 }} className={style.companyName}>
                         OrissaFertilizer
                     </Typography>
+                    <LoginComponent></LoginComponent>
                     {/*               
                         <CartIcon name="Cart" count="5"/>
                     

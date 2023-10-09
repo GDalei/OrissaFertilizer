@@ -15,9 +15,8 @@ export const dataList = [
 export const Description = "ଆମର ଇ-ବାଣିଜ୍ୟ ୱେବସାଇଟରେ ଉଚ୍ଚ-ଗୁଣାତ୍ମକ ସାର ଏବଂ କୀଟନାଶକ ଔଷଧର ଏକ ବିସ୍ତୃତ ଚୟନ ଆବିଷ୍କାର କରନ୍ତୁ। ଆପଣଙ୍କର ଉଦ୍ୟାନ ଏବଂ କୃଷି ପ୍ରୟାସକୁ ବଢାଇବା ପାଇଁ ଡିଜାଇନ୍ ହୋଇଥିବା ଆମର ବ୍ୟାପକ ଉତ୍ପାଦଗୁଡିକୁ ବ୍ରାଉଜ୍ କରନ୍ତୁ।  ଅନଲାଇନ୍ କ୍ରୟ ପାଇଁ ଉପଲବ୍ଧ |";
 
 export const MenuList = [
-    { Name: "Fertilizer", Path: "" },
-    { Name: "Presticide", Path: "" },
-    { Name: "Seed", Path: "" },
-    { Name: "Nursery", Path: "" },
-    { Name: "Seed", Path: "" },
+    { Name: "Fertilizer", Path: "", MenuList:["UREA","POTASH","NPK","GROMOR","DAP"] },
+    { Name: "Presticide", Path: "", MenuList:["ACTATHENE","ACTAALPHA","BRAHMOS","ASTAR","ACTAP", "ACTABAN", "MAHAYODAH A", "MAHAYODAH A"] },
+    { Name: "Seed", Path: "", MenuList:["UREA","POTASH","NPK","GROMOR","DAP"] },
+    { Name: "Nursery", Path: "", MenuList:["UREA","POTASH","NPK","GROMOR","DAP"] },
 ]

@@ -11,6 +11,8 @@ import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import LeftMenu from '../components/leftMenu/LeftMenu';
 import Box from '@mui/joy/Box';
+import MenuListComponent from '../components/MenuListComponent/MenuListComponent';
+import SearchBarComponent from '../components/SearchBarComponent/SearchBarComponent';
 const Product = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [data, setData] = useState({})
@@ -27,19 +29,22 @@ const Product = () => {
     }, [isOpen])
     const content = (
         <Box sx={{ fontSize: 'sm', color: 'text.tertiary' }}>
-          {`${Description}`}
+            {`${Description}`}
         </Box>
-      );
+    );
     return (
         <div className={style.productWarper}>
             <div className={style.productHeader}><Header /></div>
             <Paper className={style.productMenubar}>
-                {
-                    MenuList.map((value, index) => {
-                        return <li><a href={value.path}>{value.Name}</a></li>
-                    })
-                }
-
+                <div>
+                    {
+                        MenuList.map((value, index) => {
+                            //return <li><a href={value.path}>{value.Name}</a></li>
+                            return <MenuListComponent menuName={value.Name} menuList={value.MenuList} />
+                        })
+                    }
+                </div>
+                <div><SearchBarComponent/></div>
             </Paper>
             <div className={style.productBody}>
                 <Paper className={style.leftSideBar}>
@@ -50,7 +55,7 @@ const Product = () => {
                 <Paper className={style.rightSideBar}>
 
                     <Typography className={style.rightSideBarHeader}>{content}
-                    <Divider >Description</Divider>
+                        <Divider >Description</Divider>
                     </Typography>
 
                     {
